@@ -1,0 +1,7 @@
+// This script is to give a sample method for a python unit test
+
+func add(){
+	a = $1
+	b = $2
+	return a+b
+}

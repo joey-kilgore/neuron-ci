@@ -21,7 +21,7 @@ UNITS {
 
 ? interface
 NEURON {
-        SUFFIX hh
+        SUFFIX hhNew
         REPRESENTS NCIT:C17145   : sodium channel
         REPRESENTS NCIT:C17008   : potassium channel
         USEION na READ ena WRITE ina REPRESENTS CHEBI:29101
