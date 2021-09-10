@@ -38,3 +38,7 @@ jobs:
       # Run the unit tests
       - name: Unit Testing
 		run: python3 -m unittest test/testCalculator.py
+
+      # Attempt running neuron with mpi
+      - name: NEURON and MPI test
+        run: mpiexec -n 2 nrniv -mpi ./sim/test0.hoc
