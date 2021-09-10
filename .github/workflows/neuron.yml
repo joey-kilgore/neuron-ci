@@ -34,3 +34,7 @@ jobs:
       # Attempt to transpile and compile the models
       - name: Build Models
         run: nrnivmodl ./mod
+
+      # Run the unit tests
+      - name: Unit Testing
+		run: python3 -m unittest test/testCalculator.py
