@@ -1,6 +1,7 @@
 ![example workflow](https://github.com/joey-kilgore/neuron-ci/actions/workflows/neuron.yml/badge.svg)
 # neuron-ci
-Testing Continuous Integration with NEURON
+Testing Continuous Integration with NEURON  
+Checkout the [pages](https://joey-kilgore.github.io/neuron-ci/)
 
 # Setting up CI on a NEURON repo
 This repo has continuous integration for the following tasks
