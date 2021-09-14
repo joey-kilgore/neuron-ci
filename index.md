@@ -28,6 +28,9 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+### Other Pages
+GitHub pages allows for additional markdown pages to be created which are automatically deployed. To access these, we can simply use their directory path in the gh-pages branch, and that determines the url. For example we can checkout the test page [/subdir/subdirExplanation](https://joey-kilgore.github.io/neuron-ci/subdir/subdirExplanation)
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joey-kilgore/neuron-ci/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
